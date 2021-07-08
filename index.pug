@@ -1,0 +1,162 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        title Freebie Agency
+        link(rel="stylesheet", href="source/css/style.css")
+    body 
+        header.header 
+            .wrapper
+                nav.navbar 
+                    a.navbar__link(href="#") Works
+                        .navbar__link-decoration 
+                    a.navbar__link(href="#") About
+                        .navbar__link-decoration 
+                    a.navbar__link(href="#") Services
+                        .navbar__link-decoration 
+                    a.navbar__link(href="#") Blog
+                        .navbar__link-decoration 
+                    a.navbar__link(href="#") Contact
+                        .navbar__link-decoration 
+        section.slider
+            .slider__bg-black
+            .slider__textbox
+                h1.title__h1 WHERE GREAT IDEAS COME TO LIFE
+                p.slider__text Passionate creative studio helping startups grow their business!
+                
+        section.about 
+            .wrapper__about 
+                .about__text-box
+                    p.about__title WE ARE
+                    p.about__title-name THE SQWD
+                    .about__paragraph 
+                        .about__text-decor
+                        p.about__text Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.
+                .about__paragraph_second 
+                    .about__text-decor
+                    p.about__text Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.
+                .about__picture-box
+                    .about__picture
+                    .about__picture-decor 
+                    .about__picture_second
+        
+        section.service 
+            .wrapper__service
+                h2.title__h2 Our Services
+                .service__column
+                    .service__item 
+                        .service__item-header
+                            p.service__item-title Branding
+                            .service__item-icon
+                                img.service__item-picture(src="../source/img/icon01.jpg", alt="")
+                        p.service__item-text Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.           
+                        a.service__item-link(href="#") READ MORE 
+
+                    .service__item 
+                        .service__item-header
+                            p.service__item-title DESIGN
+                            .service__item-icon
+                                img.service__item-picture(src="../source/img/icon02.jpg", alt="")
+                        p.service__item-text Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.           
+                        a.service__item-link(href="#") READ MORE 
+
+                    .service__item 
+                        .service__item-header
+                            p.service__item-title DEVELOPMENT
+                            .service__item-icon
+                                img.service__item-picture(src="../source/img/icon03.jpg", alt="")
+                        p.service__item-text Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.           
+                        a.service__item-link(href="#") READ MORE 
+
+        section.works 
+            .wrapper__works 
+                .works__column 
+                    .works__header
+                        h2.title__h2 Latest Works
+                        .works__filter 
+                            a.works__filter-item(href="#") All 
+                            a.works__filter-item(href="#") WEB DESIGN 
+                            a.works__filter-item(href="#") BRANDING 
+                            a.works__filter-item(href="#") PHOTOGRAPHY 
+                            a.works__filter-item(href="#") ILLUSTRATION
+                    .works__item
+                        img.works__item-image.works__item-image(src="../source/img/left01.jpg", alt="")
+                        h3.works__item-title.works__item-title_left A KITTEN’S <br> LIFE
+                        .works__item-caption.works__item-caption_left
+                            p.works__item-filter Photography
+                            p.works__item-text Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            a.works__item-link(href="#") READ MORE 
+                    .works__item
+                        img.works__item-image.works__item-image(src="../source/img/left02.jpg", alt="")
+                        h3.works__item-title.works__item-title_left APPLE’S <br> LOST MAGIC
+                        .works__item-caption.works__item-caption_left
+                            p.works__item-filter Photography
+                            p.works__item-text Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            a.works__item-link(href="#") READ MORE 
+                .works__column
+                    .works__item.works__item_right
+                        img.works__item-image.works__item-image_right(src="../source/img/right01.jpg", alt="")
+                        h3.works__item-title.works__item-title 100 YEARS <br> PHOTOGRAPHY
+                        .works__item-caption.works__item-caption_right
+                            p.works__item-filter Photography
+                            p.works__item-text Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            a.works__item-link(href="#") READ MORE 
+                    .works__item.works__item_right
+                        img.works__item-image.works__item-image_right(src="../source/img/right02.jpg", alt="")
+                        h3.works__item-title.works__item-title GROOVEMADE <br> PRODUCTS FOR MAC
+                        .works__item-caption.works__item-caption_right
+                            p.works__item-filter Photography
+                            p.works__item-text Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            a.works__item-link(href="#") READ MORE
+                    a.works__filter-link(href="#") view more
+        section.team 
+            .wrapper__team 
+                h2.title__h2 The Team 
+                .team__columns 
+                    .team__item 
+                        img.team__item-image(src="../source/img/team01.jpg", alt="TOM JONES")
+                        .team__item-caption 
+                            p.team__item-name TOM JONES
+                            .team__item-decoration 
+                            p.team__item-position Designer
+                            p.team__item-quote 
+                    .team__item 
+                        img.team__item-image(src="../source/img/team02.jpg", alt="MICHAEL FRAUP")
+                        .team__item-caption 
+                            p.team__item-name MICHAEL FRAUP
+                            .team__item-decoration 
+                            p.team__item-position Creative Director
+                            p.team__item-quote Create with simplicity in mind!
+                    .team__item 
+                        img.team__item-image(src="../source/img/team03.jpg", alt="TIM CAHILL")
+                        .team__item-caption 
+                            p.team__item-name TIM CAHILL
+                            .team__item-decoration 
+                            p.team__item-position Designer
+                            p.team__item-quote 
+        section.contact 
+            .wrapper__contact 
+                a.contact__leftbox(href="#")
+                    .contact__left-content
+                        img.contact__icon(src="../source/img/icon05.jpg", alt="")
+                        p.contact__left-content-title Want to work together?
+                        p.contact__left-content-text Amazing. Tell us about your project!
+                        img.next(src="../source/img/next.svg", alt="")
+                a.contact__rightbox(href="#")  
+                    .contact__right-content
+                        img.contact__icon(src="../source/img/icon06.svg", alt="")
+                        p.contact__right-content-title Contact us
+                        p.contact__right-content-text Get in touch
+                        img.next(src="../source/img/next.svg", alt="")
+        section.footer 
+            .wrapper__footer 
+                p.footer__text 3rd Floor, Santa Monica Beach, CA, San Francisco
+                p.footer__text (359) 0 123 456 789 - info@yourmail.com
+
+                .footer__icons 
+                    img.footer__icons-picture(src="../source/img/icon07.svg", alt="")
+                    img.footer__icons-picture(src="../source/img/icon08.svg", alt="")
+                    img.footer__icons-picture(src="../source/img/icon09.svg", alt="")
+                .footer__author 
+                    p.footer__text Designed by JD
